@@ -1,8 +1,19 @@
-A multi-page frontend with Python backend for tracking and optimizing study sessions.
+# Study Session Optimization App
 
-Variables tracked: time of day, day type, session duration, energy, focus, mood, sleep quantity/quality, subject, difficulty, study type, retention score, progress, efficiency.
+A multi-page web application with a Python backend that tracks study behavior and uses data science to suggest optimal study times and session lengths.
 
-Backend uses data science: preprocessing, EDA, predictive modeling with sample data to suggest optimal study times and durations.
+## Features
 
-Frontend: HTML, CSS, JavaScript
-Backend: Python, Flask, pandas, scikit-learn
+* Tracks study variables including time of day, session duration, energy, focus, mood, sleep quality, subject, difficulty, and retention
+* Analyzes efficiency, progress, and performance trends
+* Generates data-driven recommendations using predictive models
+
+## Tech Stack
+
+**Frontend:** HTML, CSS, JavaScript
+**Backend:** Python, Flask
+**Data Science:** pandas, scikit-learn (preprocessing, EDA, modeling)
+
+## Purpose
+
+Demonstrates full-stack development combined with applied data science for productivity and learning optimization.
