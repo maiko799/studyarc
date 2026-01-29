@@ -1,6 +1,6 @@
-# Study ARc
+# Study Arc
 
-A beautiful, modern web app to track your study sessions and unlock personalized performance insights. With a whimsical design and smart analytics, this app helps you understand your study patterns and optimize your learning.
+Web app to track your study sessions and unlock personalized performance insights. With a whimsical design and smart analytics, this app helps you understand your study patterns and optimize your learning.
 
 ## Features
 
