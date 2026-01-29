@@ -3,31 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cute Study Tracker</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cute Study Tracker</title>
+    <title>Study Arc</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <nav>
         <div class="nav-links">
             <a href="index.html">Home</a>
-            <a href="past-entries.html">Past Entries</a>
-            <a href="optimization.html">Plans</a>
+            <a href="past-entries.html">Data & More</a>
         </div>
         <button id="themeToggle" class="theme-btn"><span id="themeIcon">🌙</span> <span id="themeText">Dark</span></button>
     </nav>
     <div class="container">
-        <h1><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2L15 8L22 9L17 14L18.5 21L12 17.5L5.5 21L7 14L2 9L9 8L12 2Z" fill="#8b4513"/></svg> Cute Study Tracker <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2L15 8L22 9L17 14L18.5 21L12 17.5L5.5 21L7 14L2 9L9 8L12 2Z" fill="#556b2f"/></svg></h1>
+        <h1><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2L15 8L22 9L17 14L18.5 21L12 17.5L5.5 21L7 14L2 9L9 8L12 2Z" fill="currentColor"/></svg>  Study Arc</h1>
         <form id="studyForm">
-            <h2><svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" stroke="#daa520" stroke-width="2"/><path d="M12 6V12L16 14" stroke="#daa520" stroke-width="2" stroke-linecap="round"/></svg> Time-Related Variables</h2>
+            <h2><svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/><path d="M12 6V12L16 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg> Time-Related Variables</h2>
             <div class="form-group">
                 <label for="timeOfDay">Time of Day:</label>
                 <select id="timeOfDay" name="timeOfDay" required>
@@ -58,7 +48,7 @@
                 </select>
             </div>
 
-            <h2><svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" stroke="#daa520" stroke-width="2"/><path d="M8 14S9 16 12 16 16 14 16 14" stroke="#daa520" stroke-width="2" stroke-linecap="round"/><circle cx="9" cy="10" r="1" fill="#daa520"/><circle cx="15" cy="10" r="1" fill="#daa520"/></svg> Personal Performance Variables</h2>
+            <h2><svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/><path d="M8 14S9 16 12 16 16 14 16 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="9" cy="10" r="1" fill="currentColor"/><circle cx="15" cy="10" r="1" fill="currentColor"/></svg> Personal Performance Variables</h2>
             <div class="form-group">
                 <label for="energyLevel">Energy Level/Fatigue (1-10):</label>
                 <input type="number" id="energyLevel" name="energyLevel" min="1" max="10" required>
@@ -80,7 +70,7 @@
                 <input type="number" id="sleepQuality" name="sleepQuality" min="1" max="10" required>
             </div>
 
-            <h2><svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="4" y="4" width="16" height="16" rx="2" stroke="#daa520" stroke-width="2"/><path d="M8 8H16V12H8V8Z" fill="#daa520"/><path d="M8 14H12" stroke="#daa520" stroke-width="2" stroke-linecap="round"/></svg> Task-Related Variables</h2>
+            <h2><svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="4" y="4" width="16" height="16" rx="2" stroke="currentColor" stroke-width="2"/><path d="M8 8H16V12H8V8Z" fill="currentColor"/><path d="M8 14H12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg> Task-Related Variables</h2>
             <div class="form-group">
                 <label for="subject">Subject/Topic:</label>
                 <input type="text" id="subject" name="subject" required>
@@ -102,10 +92,11 @@
                     <option value="problem-solving">Problem-Solving</option>
                     <option value="reviewing-notes">Reviewing Notes</option>
                     <option value="practice-tests">Practice Tests</option>
+                    <option value="coding">Coding</option>
                 </select>
             </div>
 
-            <h2><svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" stroke="#daa520" stroke-width="2"/><path d="M12 8L14 12H18L15 15L16 19L12 16L8 19L9 15L6 12H10L12 8Z" fill="#daa520"/></svg> Outcome Variables</h2>
+            <h2><svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/><path d="M12 8L14 12H18L15 15L16 19L12 16L8 19L9 15L6 12H10L12 8Z" fill="currentColor"/></svg> Outcome Variables</h2>
             <div class="form-group">
                 <label for="retentionScore">Retention Score (0-100):</label>
                 <input type="number" id="retentionScore" name="retentionScore" min="0" max="100">
@@ -119,15 +110,14 @@
                 <input type="number" id="efficiency" name="efficiency" min="1" max="10">
             </div>
 
-            <button type="submit" class="submit-btn"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2L15 8L22 9L17 14L18.5 21L12 17.5L5.5 21L7 14L2 9L9 8L12 2Z" fill="white"/></svg> Save Entry <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2L15 8L22 9L17 14L18.5 21L12 17.5L5.5 21L7 14L2 9L9 8L12 2Z" fill="white"/></svg></button>
+            <button type="submit" class="submit-btn"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2L15 8L22 9L17 14L18.5 21L12 17.5L5.5 21L7 14L2 9L9 8L12 2Z" fill="white"/></svg> Save Entry</button>
         </form>
     </div>
     <footer>
-        <p>Study smart! 🌟</p>
+        <p>The journey of a thousand miles begins with one step
+            -
+            Lau Tzu</p>
     </footer>
     <script src="script.js"></script>
 </body>
 </html>
-    <script src="script.js"></script>
-</body>
-</html></content>

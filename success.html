@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Great Job!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="past-entries.html">Data & More</a>
+        </div>
+        <button id="themeToggle" class="theme-btn"><span id="themeIcon">🌙</span> <span id="themeText">Dark</span></button>
+    </nav>
+    <div class="container success-container">
+        <div class="success-card">
+            <svg class="success-icon" width="80" height="80" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                <path d="M8 12.5L11 15.5L16 8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <h1>Great Job!</h1>
+            
+            <div class="quote-box">
+                <p id="quote" class="quote-text">"Success is the sum of small efforts repeated day in and day out."</p>
+            </div>
+
+            <p class="consistency-message">
+                <strong>Remember:</strong> The more consistent you are with inputting your study data, the more accurate your performance analysis becomes. Keep tracking to unlock powerful insights! 📊
+            </p>
+
+            <div class="button-group">
+                <button onclick="window.location.href='index.html'" class="action-btn primary-btn">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 5V19M5 12H19" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                    Add More Data
+                </button>
+                <button onclick="window.location.href='past-entries.html'" class="action-btn secondary-btn">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="4" y="4" width="16" height="16" rx="2" stroke="white" stroke-width="2"/>
+                        <path d="M8 8H16V12H8V8Z" fill="white"/>
+                        <path d="M8 14H12" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                    View Data & More
+                </button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Life begins when you make intentional choices, not convenient ones.</p>
+    </footer>
+    <script src="success-script.js"></script>
+</body>
+</html>
